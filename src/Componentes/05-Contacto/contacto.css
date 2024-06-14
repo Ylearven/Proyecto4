@@ -1,0 +1,51 @@
+#Contacto {
+  background-color: rgb(75, 26, 114);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#Contacto > div {
+  margin-top: 20px;
+}
+#Contacto > h2 {
+  color: rgb(227, 113, 255);
+  font-size: 60px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+#Contacto > div > h3 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#Contacto > div > p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: light;
+  margin: 5px;
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  #Contacto > h2 {
+    font-size: 40px;
+  }
+  #Contacto > div > p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #Contacto > h2 {
+    font-size: 30px;
+  }
+  #Contacto > div > p {
+    font-size: 15px;
+  }
+  #Contacto > div > h3 {
+    font-size: 15px;
+  }
+}

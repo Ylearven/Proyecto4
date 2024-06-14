@@ -1,0 +1,56 @@
+#Proyectos {
+  width: 100%;
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(75, 26, 114);
+}
+#Proyectos > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Proyectos > h2 {
+  color: rgb(75, 26, 114);
+  font-size: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+#Proyectos > div > h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  background-color: rgb(227, 113, 255);
+  width: 100%;
+  text-align: center;
+}
+#Proyectos > div > a {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+}
+#Proyectos > div > p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: light;
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  #Proyectos > h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #Proyectos > h2 {
+    font-size: 30px;
+  }
+  #Proyectos > div > h3 {
+    font-size: 20px;
+  }
+  #Proyectos > div > p {
+    font-size: 15px;
+  }
+  #Proyectos > div > a {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,86 @@
+#AboutMe {
+  width: 100%;
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(75, 26, 114);
+}
+
+#SMContainer {
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#SMContainer > h2 {
+  color: rgb(75, 26, 114);
+  font-size: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#SMContainer > p {
+  color: rgb(227, 113, 255);
+  font-size: 30px;
+  font-weight: normal;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 5px;
+}
+#SkContainer {
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#SkContainer > h2 {
+  color: rgb(75, 26, 114);
+  font-size: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#SkContainer > p {
+  width: 100%;
+  display: flex;
+  color: rgb(227, 113, 255);
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  #SMContainer > h2 {
+    font-size: 40px;
+  }
+  #SMContainer > p {
+    font-size: 20px;
+  }
+  #SkContainer > p {
+    font-size: 20px;
+  }
+  #SkContainer > h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #SMContainer > h2 {
+    font-size: 30px;
+  }
+  #SMContainer > p {
+    font-size: 15px;
+  }
+  #SkContainer > p {
+    font-size: 15px;
+  }
+  #SkContainer > h2 {
+    font-size: 30px;
+  }
+}
